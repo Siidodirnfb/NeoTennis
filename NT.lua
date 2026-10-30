@@ -24,7 +24,7 @@ local LocalPlayer = Players.LocalPlayer
 
 -- ===== Настройки (подбирай под свой вкус) =====
 local TRIGGER_KEY      = Enum.KeyCode.G
-local SIDE_THRESHOLD   = 1      -- studs: сверхчувствительное определение стороны
+local SIDE_THRESHOLD   = 99999      -- studs: сверхчувствительное определение стороны
 local HEIGHT           = 0.50  -- умеренная высота CamDir (не "удар сверху")
 local SIDE_COEFF       = 10.0  -- БЕСКОНЕЧНЫЙ курв: мяч уходит максимально вбок
 local HIT_POWER        = 4800  -- БЕСКОНЕЧНАЯ сила удара через AttackMoveSpeed
