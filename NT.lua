@@ -196,7 +196,7 @@ local function computeShot()
 		[1] = {
 			CamPos = camPos,
 			HitPos = hitPos,
-			HitBallType = 7,        -- Perfect (оставляем тип, меняем векторы)
+			HitBallType = 3,        -- Perfect (оставляем тип, меняем векторы)
 			ClientTick = tick(),
 			CamDir = camDir,
 			AttackMoveSpeed = attackMove,
